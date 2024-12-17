@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scissors, Rock, Spock, Paper, Lizard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Scissors, Rock, Spock, Paper, Lizard</h1>
+
+      <div class="scores-container">
+        <div class="score-box">
+          <div class="sign" id="playerChoice">❔</div>
+          <p class="score">Player: <span id="playerScore">0</span></p>
+        </div>
+        <div class="score-box">
+          <div class="sign" id="computerChoice">❔</div>
+          <p class="score">Computer: <span id="computerScore">0</span></p>
+        </div>
+      </div>
+
+      <div class="choices">
+        <button onclick="play('Scissors')">Scissors ✂️</button>
+        <button onclick="play('Rock')">Rock ✊</button>
+        <button onclick="play('Spock')">Spock 🖖</button>
+        <button onclick="play('Paper')">Paper 📰</button>
+        <button onclick="play('Lizard')">Lizard 🦎</button>
+      </div>
+
+      <p id="result">Choose an option to start the game!</p>
+
+      <div class="reset">
+        <button onclick="resetGame()">Restart Game</button>
+      </div>
+    </div>
+    <audio id="clickSound" src="Media/click.mp3"></audio>
+    <audio id="winSound" src="Media/win.wav"></audio>
+    <audio id="loseSound" src="Media/lose.wav"></audio>
+    <script src="game.js"></script>
+  </body>
+</html>
