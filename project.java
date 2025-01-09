@@ -16,26 +16,6 @@ function compareChoices(humanChoice, computerChoice) {
         } else {
             console.log("scissors cut paper, Computer wins!");
         }
-PIECE OF CODING EACH:
- 
-YING:
-// paper covers rock 
-    // lizard poisens Spock,
- 
- 
-MARY:
-    // Spock smashes scissors,
- 
-    // scissors decapotates lizard,
- 
-DHARA:
- 
-    // lizard eats paper,
- 
-    // paper disproves Spock,
- 
-RENÉE:
-    // Spock vaporises rock,
- 
-    // rock crushes scissors.
+
+
  
